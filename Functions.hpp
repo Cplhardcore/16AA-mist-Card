@@ -5,8 +5,8 @@ class CfgFunctions
 		class functions
 		{
 		file="\16AAmist\functions";
-			class loadCPERS {};
-			class unloadCPERS {};
+			class loadMIST {};
+			class unloadMIST {};
 		};
 	};
 }
