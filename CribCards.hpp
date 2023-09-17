@@ -1,105 +1,17 @@
-class 4R_ContactReport
-{
-	idd = 4363;
-	duration = "1e + ´011";
-	fadeIn=0;
-	fadeOut=0;
-	onLoad = "_this call FourRBG_fnc_loadContactReport;";
-	onUnload = "call FourRBG_fnc_unloadContactReport;";
-	class ControlsBackground
-	{
-		class 4RBG_SALTA:RscPicture
-		{
-			idc = 4300;
-			text = "\FourRBG\data\ContactReport.paa";
-			x="0.0125 * safezoneW + safezoneX";
-			y="0.02 * safezoneH + safezoneY";
-			w="0.2875 * safezoneW";
-			h="0.46 * safezoneH";
-		};
-	};
-};
-
-class 4R_ECAS
-{
-	idd = 4364;
-	duration = "1e + ´011";
-	fadeIn=0;
-	fadeOut=0;
-	onLoad = "_this call FourRBG_fnc_loadECAS;";
-	onUnload = "call FourRBG_fnc_unloadECAS;";
-	class ControlsBackground
-	{
-		class 4RBG_SALTA:RscPicture
-		{
-			idc = 4400;
-			text = "\FourRBG\data\ECAS.paa";
-			x="0.0125 * safezoneW + safezoneX";
-			y="0.02 * safezoneH + safezoneY";
-			w="0.2875 * safezoneW";
-			h="0.46 * safezoneH";
-		};
-	};
-};
-
-class 4R_COMD
-{
-	idd = 4364;
-	duration = "1e + ´011";
-	fadeIn=0;
-	fadeOut=0;
-	onLoad = "_this call FourRBG_fnc_loadCOMD;";
-	onUnload = "call FourRBG_fnc_unloadCOMD;";
-	class ControlsBackground
-	{
-		class 4RBG_SALTA:RscPicture
-		{
-			idc = 4400;
-			text = "\FourRBG\data\CommandersCard.paa";
-			x="0.0125 * safezoneW + safezoneX";
-			y="0.02 * safezoneH + safezoneY";
-			w="0.2875 * safezoneW";
-			h="0.46 * safezoneH";
-		};
-	};
-};
-
-class 4R_CFF
-{
-	idd = 4364;
-	duration = "1e + ´011";
-	fadeIn=0;
-	fadeOut=0;
-	onLoad = "_this call FourRBG_fnc_loadCFF;";
-	onUnload = "call FourRBG_fnc_unloadCFF;";
-	class ControlsBackground
-	{
-		class 4RBG_SALTA:RscPicture
-		{
-			idc = 4500;
-			text = "\FourRBG\data\FireMission.paa";
-			x="0.0125 * safezoneW + safezoneX";
-			y="0.02 * safezoneH + safezoneY";
-			w="0.2875 * safezoneW";
-			h="0.46 * safezoneH";
-		};
-	};
-};
-
-class 4R_CPERS_Tag
+class 4R_MIST_Tag
 {
 	idd = 4263;
 	duration="1e + ´011";
 	fadeIn=0;
 	fadeOut=0;
-	onLoad="_this call FourRBG_fnc_loadCPERS;";
-	onUnload="call FourRBG_fnc_unloadCPERS;";
+	onLoad="_this call FourRBG_fnc_loadMIST;";
+	onUnload="call FourRBG_fnc_unloadMIST;";
 	class ControlsBackground
 	{
-		class DD_FORM_2745:RscPicture
+		class MISTCARD:RscPicture
 		{
 			idc=4200;
-			text="\FourRBG\data\EPW_Capture_Card.paa";
+			text="\FourRBG\data\MISTCard.paa";
 			x="0.0125 * safezoneW + safezoneX";
 			y="0.02 * safezoneH + safezoneY";
 			w="0.2875 * safezoneW";
