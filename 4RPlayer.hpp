@@ -4,12 +4,6 @@ class CAManBase: Man
 	sensitivityEar = 0.2;
 	class ACE_SelfActions
 	{
-		delete cTab_Interact;
-		delete greenmag_main_refill;
-		delete greenmag_main_unload;
-		delete greenmag_main_unpack;
-		delete greenmag_main_connectBelt;
-		delete ACE_Animations;
 		class ACE_Equipment
 		{
 			delete murshun_cigs_start_cig;
