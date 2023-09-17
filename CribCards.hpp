@@ -1,3 +1,4 @@
+import RscPicture;
 class 4R_MIST_Tag
 {
 	idd = 4263;
