@@ -4,7 +4,7 @@ class CfgFunctions
 	{
 		class functions
 		{
-		file="\16aaMIST\functions";
+		file="\16AAmist\functions";
 			class loadCPERS {};
 			class unloadCPERS {};
 		};
