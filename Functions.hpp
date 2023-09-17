@@ -4,13 +4,7 @@ class CfgFunctions
 	{
 		class functions
 		{
-		file="\FourRBG\functions";
-			{
-				preInit = 1;
-			};
-			{
-				postInit = 1;
-			};
+		file="\16aaMIST\functions";
 			class loadCPERS {};
 			class unloadCPERS {};
 		};
