@@ -1,5 +1,7 @@
 class CfgWeapons
 {
+	class ACE_ItemCore;
+	class CBA_MiscItem_ItemInfo;
 	class 4R_MIST_TAG:ACE_ItemCore
 	{
 		scope=2;
