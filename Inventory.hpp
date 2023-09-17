@@ -6,7 +6,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="4 Rifles Milsim";
-		picture="\FourRBG\data\tag.paa";
+		picture="\16aaMIST\data\tag.paa";
 		displayName="MIST Tag";
 		descriptionShort="Apply this to Casualties to inform the treatment chain of what treatment has been done and what is needed.";
 		class ItemInfo:CBA_MiscItem_ItemInfo

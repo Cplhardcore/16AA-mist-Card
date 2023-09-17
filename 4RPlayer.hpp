@@ -9,9 +9,9 @@ class CAManBase: Man
 			class 4R_Tag_MIST
 			{
 				displayName = "MIST Card";
-				condition = "_target getVariable '4R_MIST_TAG' in (items player)";
+				condition = this;
 				statement = "createDialog '4R_MIST_Tag'; _player removeItem '4R_MIST_TAG'";
-				icon="\FourRBG\data\MISTCARD.paa";
+				icon="\16aaMIST\data\MISTCARD.paa";
 			};
 		};
 	};
