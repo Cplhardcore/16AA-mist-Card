@@ -27,4 +27,3 @@ class CfgPatches
 #include "Functions.hpp"
 #include "Inventory.hpp"
 #include "4RPlayer.hpp"
-#include "Branding.hpp"
