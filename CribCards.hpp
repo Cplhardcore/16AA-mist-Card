@@ -1,6 +1,6 @@
 import RscPicture;
 import RscEdit;
-class 4R_MIST_Tag
+class i6aa_MIST_Tag
 {
 	idd = 4263;
 	duration="1e + ´011";
