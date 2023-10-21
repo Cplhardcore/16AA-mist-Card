@@ -13,7 +13,7 @@ class i6aa_MIST_TAG
 		class MISTCARD:RscPicture
 		{
 			idc=4200;
-			text="\i6aa\data\MISTCARD.paa";
+			text="\i6AA_mist\data\MISTCARD.paa";
 			x="0.0125 * safezoneW + safezoneX";
 			y="0.02 * safezoneH + safezoneY";
 			w="0.2875 * safezoneW";
