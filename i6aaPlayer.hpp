@@ -9,8 +9,8 @@ class CAManBase: Man
 			class i6aaMIST
 			{
 				displayName = "MIST Card";
-				condition = "('i6aa_MIST_TAG' in (items player))";
-				statement = "createDialog 'i6aa_MIST_Tag'";
+				condition = "('i6aa_MIST_TAG' in (items _target))";
+				statement = "createDialog 'i6aa_MIST_TAG'";
 				icon="\i6aaMIST\data\MISTCARD.paa";
 			};
 		};

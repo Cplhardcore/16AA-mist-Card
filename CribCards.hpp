@@ -1,6 +1,6 @@
 import RscPicture;
 import RscEdit;
-class i6aa_MIST_Tag
+class i6aa_MIST_TAG
 {
 	idd = 4263;
 	duration="1e + ´011";
@@ -13,7 +13,7 @@ class i6aa_MIST_Tag
 		class MISTCARD:RscPicture
 		{
 			idc=4200;
-			text="\i6aa\data\MISTCard.paa";
+			text="\i6aa\data\MISTCARD.paa";
 			x="0.0125 * safezoneW + safezoneX";
 			y="0.02 * safezoneH + safezoneY";
 			w="0.2875 * safezoneW";
