@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class 4Rifles
+	class i6aa
 	{
 		name="4 Rifles Milsim Config Edits";
 		weapons[]=
 		{
-			"4R_MIST_TAG",
+			"i6aa_MIST_TAG",
 		};
 		requiredVersion = 0.3;
 		requiredAddons[] =
@@ -26,4 +26,4 @@ class CfgPatches
 #include "CribCards.hpp"
 #include "Functions.hpp"
 #include "Inventory.hpp"
-#include "4RPlayer.hpp"
+#include "i6aaPlayer.hpp"

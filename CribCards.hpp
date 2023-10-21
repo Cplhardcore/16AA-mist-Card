@@ -6,14 +6,14 @@ class 4R_MIST_Tag
 	duration="1e + ´011";
 	fadeIn=0;
 	fadeOut=0;
-	onLoad="_this call FourRBG_fnc_loadMIST;";
-	onUnload="call FourRBG_fnc_unloadMIST;";
+	onLoad="_this call i6aa_fnc_loadMIST;";
+	onUnload="call i6aa_fnc_unloadMIST;";
 	class ControlsBackground
 	{
 		class MISTCARD:RscPicture
 		{
 			idc=4200;
-			text="\FourRBG\data\MISTCard.paa";
+			text="\i6aa\data\MISTCard.paa";
 			x="0.0125 * safezoneW + safezoneX";
 			y="0.02 * safezoneH + safezoneY";
 			w="0.2875 * safezoneW";
